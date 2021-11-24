@@ -1,0 +1,6 @@
+<textarea rows="6"  #text></textarea>
+<hr/>
+<button (click)="onAddPost(text)">Save Post</button>
+
+<!-- {{newPost}} -->
+<p *ngIf="newPost.length > 0"> {{newPost}}</p>
